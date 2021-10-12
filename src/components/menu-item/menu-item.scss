@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
 .menu-item {
   min-width: 30%;
   height: 240px;
@@ -60,13 +62,17 @@
     .title {
       font-weight: bold;
       margin-bottom: 6px;
-      font-size: 22px;
-      color: #4a4a4a;
+      font-size: 27px;
+      color: #0F66B1;
+      text-shadow: 2px 2px 1.5px #fff;
+      font-family: 'Barlow Condensed', sans-serif;
     }
 
     .subtitle {
       font-weight: lighter;
-      font-size: 16px;
+      font-size: 18px;
+      color: #0F66B1;
+      font-family: 'Poppins', sans-serif;
     }
   }
 }

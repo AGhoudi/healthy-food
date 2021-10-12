@@ -16,30 +16,40 @@ const Directory = () => {
     sections: [
       {
         title: 'Vegetables',
+        subtitle: 'Go Green',
         imageUrl: `${vegetables}`,
-        id: 1
+        id: 1,
+        linkUrl: 'vegetables'
       },
       {
         title: 'Fruits',
+        subtitle: 'Healthy Fruits',
         imageUrl: `${fruits}`,
-        id: 2
+        id: 2,
+        linkUrl: ''
       },
       {
         title: 'Soups',
         imageUrl: `${soups}`,
-        id: 3
+        subtitle: 'Delicious Soups',
+        id: 3,
+        linkUrl: ''
       },
       {
         title: 'Salads',
         imageUrl: `${salads}`,
+        subtitle: 'Eat Salads',
         size: 'large',
-        id: 4
+        id: 4,
+        linkUrl: ''
       },
       {
         title: 'Juices',
         imageUrl: `${juices}`,
+        subtitle: 'Drink Juices',
         size: 'large',
-        id: 5
+        id: 5,
+        linkUrl: ''
       }
     ]
 
@@ -49,8 +59,8 @@ const Directory = () => {
   return (
     <div className="directory-menu">
       {
-        category.sections.map(({title, imageUrl, id, size}) => (
-          <MenuItem key={id} title={title} imageUrl={imageUrl} size={size} />
+        category.sections.map(({id, ...otherSectionProps}) => (
+          <MenuItem key={id} {...otherSectionProps} />
         ))
       }
     </div>
