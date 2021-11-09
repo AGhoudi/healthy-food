@@ -12,8 +12,8 @@ const MenuItem = ({ title, subtitle, imageUrl, size, history, linkUrl, match }) 
       className='background-image'
       style={{
         background: `linear-gradient(
-          rgba(135, 206, 235, 0.3), 
-          rgba(135, 206, 235, 0.3)
+          rgba(135, 206, 235, 0.2), 
+          rgba(135, 206, 235, 0.2)
         ),url(${imageUrl})`
       }}
     />

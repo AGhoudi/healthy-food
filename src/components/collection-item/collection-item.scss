@@ -8,9 +8,17 @@
   .image {
     width: 100%;
     height: 95%;
-    background-size: cover;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
     background-position: center;
     margin-bottom: 5px;
+    border-radius: 5px;
+    border: 3px solid white;
+  }
+
+  &:hover{
+    filter: grayscale(100%);
+    cursor: pointer;
   }
 
   .collection-footer {
@@ -19,6 +27,8 @@
     display: flex;
     justify-content: space-between;
     font-size: 18px;
+    color: #0F66B1;
+    font-family: 'Poppins', sans-serif;
 
     .name {
       width: 90%;

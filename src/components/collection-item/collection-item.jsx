@@ -7,7 +7,7 @@ const CollectionItem = ({ id, name, price, imageUrl }) => (
     <div
       className='image'
       style={{
-        backgroundImage: `url(${imageUrl})`
+        backgroundImage: `linear-gradient(rgba(135, 206, 235, 0.2), rgba(135, 206, 235, 0.2)), url(${imageUrl})`
       }}
     />
     <div className='collection-footer'>
@@ -18,3 +18,4 @@ const CollectionItem = ({ id, name, price, imageUrl }) => (
 );
 
 export default CollectionItem;
+

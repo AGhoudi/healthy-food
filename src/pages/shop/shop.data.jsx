@@ -1,32 +1,37 @@
+import cucumber from '../../assets/images/cucumber.png';
+import pepper from '../../assets/images/pepper.png';
+import potato from '../../assets/images/potato.png';
+import onion from '../../assets/images/onion.png';
+
 const SHOP_DATA =  [
   {
     id: 1,
-    title: 'Hats',
-    routeName: 'hats',
+    title: 'Vegetables',
+    routeName: 'vegetables',
     items: [
       {
         id: 1,
-        name: 'Brown Brim',
-        imageUrl: 'https://i.ibb.co/ZYW3VTp/brown-brim.png',
-        price: 25
+        name: 'Cucumber',
+        imageUrl: `${cucumber}`,
+        price: 2
       },
       {
         id: 2,
-        name: 'Blue Beanie',
-        imageUrl: 'https://i.ibb.co/ypkgK0X/blue-beanie.png',
-        price: 18
+        name: 'Pepper',
+        imageUrl: `${pepper}`,
+        price: 3
       },
       {
         id: 3,
-        name: 'Brown Cowboy',
-        imageUrl: 'https://i.ibb.co/QdJwgmp/brown-cowboy.png',
-        price: 35
+        name: 'Potato',
+        imageUrl: `${potato}`,
+        price: 3
       },
       {
         id: 4,
-        name: 'Grey Brim',
-        imageUrl: 'https://i.ibb.co/RjBLWxB/grey-brim.png',
-        price: 25
+        name: 'Onion',
+        imageUrl: `${onion}`,
+        price: 2
       },
       {
         id: 5,
@@ -62,8 +67,8 @@ const SHOP_DATA =  [
   },
   {
     id: 2,
-    title: 'Sneakers',
-    routeName: 'sneakers',
+    title: 'Fruits',
+    routeName: 'fruits',
     items: [
       {
         id: 1,
@@ -117,8 +122,8 @@ const SHOP_DATA =  [
   },
   {
     id: 3,
-    title: 'Jackets',
-    routeName: 'jackets',
+    title: 'Soups',
+    routeName: 'soups',
     items: [
       {
         id: 1,
@@ -154,8 +159,8 @@ const SHOP_DATA =  [
   },
   {
     id: 4,
-    title: 'Womens',
-    routeName: 'womens',
+    title: 'Salads',
+    routeName: 'salads',
     items: [
       {
         id: 1,
@@ -203,8 +208,8 @@ const SHOP_DATA =  [
   },
   {
     id: 5,
-    title: 'Mens',
-    routeName: 'mens',
+    title: 'Juices',
+    routeName: 'juices',
     items: [
       {
         id: 1,
