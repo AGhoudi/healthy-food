@@ -1,6 +1,6 @@
 <div align=center><img src="https://user-images.githubusercontent.com/27373255/141378794-ca79cff3-10a0-40c6-b57c-ea548658447a.png" alt="memory-game"/></div>
 <h2 align=center>🎯 Objectif du projet :</h2>
-<p align=center>Il s'agissait de créer un jeu de memory game, en utilisant le langage javascript.</p>
+<p align=center>Il s'agissait de créer un e-commerce complet avec react et firebase.</p>
 
 <h2 align=center>📝 Description :</h2>
 
