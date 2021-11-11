@@ -12,7 +12,7 @@ J'ai crée un e-commerce complet avec react et firebase.</p>
 
 <h2 align=center>💻 Stack utilisé :</h2>
 
-<p align=center>HTML - CSS - Javascript</p>
+<p align=center>HTML - CSS - Javascript - React - Sass - Firebase</p>
 
 <h2 align=center>🌐 Lien web du projet :</h2>
 
