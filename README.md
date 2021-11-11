@@ -16,6 +16,6 @@ J'ai crée un e-commerce complet avec react et firebase.</p>
 
 <h2 align=center>🌐 Lien web du projet :</h2>
 
-<p align=center>Voici un lien pour tester le jeu:
+<p align=center>
   A Venir...
 </p>
