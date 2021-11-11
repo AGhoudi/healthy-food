@@ -17,5 +17,5 @@ J'ai crée un e-commerce complet avec react et firebase.</p>
 <h2 align=center>🌐 Lien web du projet :</h2>
 
 <p align=center>Voici un lien pour tester le jeu:
-
-  <a title="https://codepen.io/Link1986/pen/ZmoWqL" role="link" target="_blank" class="text-bold" rel="noopener noreferrer" href="https://codepen.io/Link1986/pen/ZmoWqL">codepen.io/link1986/pen/zmowql</a></p>
+  A Venir...
+</p>
